@@ -564,3 +564,6 @@ flex-direction: row-reverse;
         top: 0;
         z-index: -1;
     }
+    .active_clr{
+        color: #fee000!important;
+    }
