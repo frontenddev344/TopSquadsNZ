@@ -107,6 +107,16 @@ nav .icon-burger .line {
     position: relative;
     z-index: 0;
 }
+.howtoplay_banner{
+    background-image: url(../images/how_to_play_two.webp);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding: 250px 0;
+    position: relative;
+    z-index: 0;
+}
 .banner::after
 {
     position: absolute;
@@ -191,12 +201,23 @@ nav .icon-burger .line {
 }
 .como_card img {
     width: 100%;
-    max-width: 90px;
+    max-width: 80px;
+    animation: zoom-in-zoom-out 3s ease-out infinite;
 }
-.fantasy_sports {
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+.fantasy_sports_inner{
     display: flex;
     align-items: center;
-    padding-top: 120px;
 }
 .left_sports {
     width: 50%;
@@ -206,6 +227,8 @@ nav .icon-burger .line {
 }
 .fantasy_sports img {
     width: 100%;
+    height: 500px;
+    object-fit: contain;
 }
 .common_btn {
     background: #37003c;
@@ -224,6 +247,16 @@ nav .icon-burger .line {
     color: #37003c;
     margin-bottom: 20px;
 }
+/* .left_sports p {
+    color: #fff;
+}
+.left_sports .common_btn {
+    background:#fff ;
+    color: #37003c;
+} */
+.fantasy_sports {
+    background: #37003c47;
+}
 .inner_about_us {
     display: flex;
     align-items: center;
@@ -234,8 +267,8 @@ nav .icon-burger .line {
 }
 
 .right_about {
-    width: 50%;
-    padding: 20px;
+    width: 100%;
+    text-align: center;
 }
 
 .left_about img {
@@ -247,7 +280,7 @@ nav .icon-burger .line {
 }
 .right_about h2 {
     font-size: 36px;
-    color: #37003c;
+    color: #fff;
     margin-bottom: 20px;
 }
 .about_us .mobile_number_div {
@@ -259,7 +292,6 @@ nav .icon-burger .line {
     align-items: center;
 }
 .wrapab .left_ab_wrap {
-    padding: 20px;
     width: 50%;
 }
 .wrapab .right_ab_wrap {
@@ -289,4 +321,54 @@ flex-direction: row-reverse;
     }
     .top_line_h2 {
         margin-top: 150px;
+    }
+    .how_to_play h3 {
+        color: #37003c;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .how_to_play p{
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .how_to_play li{
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .privacy_wrap h4 {
+        color: #37003c;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .privacy_area p {
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .privacy_area li {
+        line-height: 25px;
+        font-size: 17px;
+    }
+    
+  
+    .about_us 
+    {
+        background-image: url(../images/how_to_play_img.jpg);
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 0;
+        background-position: center;
+    }
+    .right_about p {
+        color: #fff;
+    }
+    .about_us::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #0000008f;
+        top: 0;
+        z-index: -1;
     }
