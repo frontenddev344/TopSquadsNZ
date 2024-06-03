@@ -472,3 +472,16 @@ flex-direction: row-reverse;
     .social_icon ul li a:hover {
         transform: rotate(360deg);
     }
+    .social_icon ul {
+
+        padding-left: 0;
+    }
+    .social_footer ul {
+        padding-left: 0;
+    }
+    .how_to_p {
+        margin-top: 75px;
+    }
+    .top_line_h2 h2 {
+        font-size: 32px;
+    }
