@@ -293,7 +293,6 @@ nav .icon-burger .line {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     /* padding: 30px; */
 }
 .wrapab .left_ab_wrap {
@@ -303,6 +302,7 @@ nav .icon-burger .line {
 }
 .wrapab .right_ab_wrap {
     width: 50%;
+    overflow: hidden;
 }
 .about_bottom .container .wrapab:nth-child(2){
 flex-direction: row-reverse;
@@ -314,44 +314,62 @@ flex-direction: row-reverse;
         width: 100%;
         height: 400px;
         object-fit: cover;
+        margin-left: 40px;
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
     }
+    .about_bottom img:hover {
+ margin-left: 0;
+    }
+    
     
     .left_ab_wrap h3 {
         font-size: 36px;
-        color: #37003c;
+        color: rgb(254 224 0);
         margin-bottom: 20px;
+        border-bottom: 2px solid #fee000;
+        display: inline-block;
     }
     .left_ab_wrap p {
         line-height: 28px;
+        color: #fff;
     }
     .top_line_h2 {
-        margin-top: 150px;
+        padding-top: 150PX;
     }
     .how_to_play h3 {
-        color: #37003c;
+        color: #fee000;
         text-transform: uppercase;
         font-size: 20px;
+     
     }
     .how_to_play p{
         line-height: 25px;
         font-size: 17px;
+        color: #fff;
+        margin-bottom: 0;
     }
     .how_to_play li{
         line-height: 25px;
         font-size: 17px;
+        color: #fff;
     }
     .privacy_wrap h4 {
-        color: #37003c;
+        color: #fee000;
         font-size: 20px;
         text-transform: uppercase;
     }
     .privacy_area p {
         line-height: 25px;
         font-size: 17px;
+        COLOR: #FFF;
     }
     .privacy_area li {
         line-height: 25px;
         font-size: 17px;
+        COLOR: #FFF;
     }
     
   
@@ -480,8 +498,69 @@ flex-direction: row-reverse;
         padding-left: 0;
     }
     .how_to_p {
-        margin-top: 75px;
+        margin-top: 0;
+        padding-top: 75px;
     }
     .top_line_h2 h2 {
         font-size: 32px;
+        color: #fff;
+    }
+    .how_to_play{
+        background-image: url(../images/bg_hd.jpg);
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 0;
+        background-position: center;
+        padding-bottom: 75px;
+    }
+    .how_to_play::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #00000091;
+        top: 0;
+        z-index: -1;
+    }
+    .last_pri_area {
+        padding-bottom: 75px;
+    }
+    .privacy_area_wrap{
+        background-image: url(../images/PRIVACY_GROUND.jpg);
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 0;
+        background-position: center;
+    }
+    .privacy_area_wrap::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #00000091;
+        top: 0;
+        z-index: -1;
+    }
+
+    .about_bottom{
+        background-image: url(../images/professional-baseball-players.jpg);
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 0;
+        background-position: center; 
+    }
+    .about_bottom::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #000000d9;
+        top: 0;
+        z-index: -1;
     }
