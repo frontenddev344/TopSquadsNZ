@@ -421,7 +421,7 @@ flex-direction: row-reverse;
         text-align: center;
     }
     .social_icon ul li {
-        margin: 0 30px;
+        margin: 0 20px;
         list-style: none;
     }
     .social_icon ul li a {
@@ -443,6 +443,19 @@ flex-direction: row-reverse;
         justify-content: center;
     }
     
-    .social_icon ul li:first-child a:first-child {
+    .social_icon ul li .one_icon {
         background: linear-gradient(30deg, #f38334, #da2e7d 50%, #6b54c6);
+    }
+    .social_icon ul li .two_icon {
+        background: #1877f2!important;
+
+    }
+    .social_icon ul li .three_icon {
+        background: #000!important;
+    }
+    .social_icon ul li .four_icon {
+        background: #0a66c2!important;
+    }
+    .social_icon {
+        margin-top: 30px;
     }
