@@ -287,4 +287,6 @@ flex-direction: row-reverse;
     .left_ab_wrap p {
         line-height: 28px;
     }
-   
+    .top_line_h2 {
+        margin-top: 150px;
+    }
