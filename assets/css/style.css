@@ -410,7 +410,7 @@ flex-direction: row-reverse;
     }
     .social_footer ul li a {
         text-decoration: none;
-        display: block;
+        display: inline-block;
         padding: 1em;
         font-size: 15px;
         font-weight: 500;
@@ -452,8 +452,8 @@ flex-direction: row-reverse;
         list-style: none;
         background: transparent;
         padding: 10px;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -566,4 +566,18 @@ flex-direction: row-reverse;
     }
     .active_clr{
         color: #fee000!important;
+    }
+    .mobile_number_div input:focus-visible {
+        outline: unset;
+    }
+    .privacy_wrap h6 {
+        color: #fff;
+        font-size: 16px;
+    }
+    li.last_email_contact_li {
+        text-align: center;
+        color: #fff;
+        font-size: 15px!important;
+        font-weight: 500!important;
+        text-transform: uppercase!important;
     }
