@@ -164,6 +164,7 @@ nav .icon-burger .line {
     height: 20px;
     text-align: center;
     text-decoration: none;
+    appearance: none !important;
 }
 .padding{
     padding:80px 0;
