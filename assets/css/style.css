@@ -513,6 +513,7 @@ flex-direction: row-reverse;
     .top_line_h2 h2 {
         font-size: 32px;
         color: #fff;
+        margin-bottom: 40px;
     }
     .how_to_play{
         background-image: url(../images/bg_hd.jpg);
