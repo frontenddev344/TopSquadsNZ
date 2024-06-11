@@ -35,9 +35,9 @@
         text-align: center;
         display: block;
     }
-    /* .social_footer ul li {
+    .social_footer ul li {
         margin: 25px 20px;
-    } */
+    }
     .social_icon ul li a {
         /* margin: 0 20px; */
         width: 25px;
