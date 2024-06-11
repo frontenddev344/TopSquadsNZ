@@ -460,7 +460,7 @@ flex-direction: row-reverse;
         font-size: 20px;
         color: #fff;
         text-decoration: none;
-        transition: all 0.8s;
+        transition: all 0.5s;
     }
     .social_icon ul {
         display: flex;
@@ -488,7 +488,7 @@ flex-direction: row-reverse;
         color: #37003c;
     }
     .social_icon ul li a:hover {
-        transform: rotate(360deg);
+        margin-top: 10px;
     }
     .social_icon ul {
 
