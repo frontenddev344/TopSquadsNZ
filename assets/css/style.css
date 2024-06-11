@@ -541,10 +541,11 @@ flex-direction: row-reverse;
         content: '';
         width: 100%;
         height: 100%;
-        background: #00000091;
+        background: #000000c2;
         top: 0;
         z-index: -1;
     }
+  
 
     .about_bottom{
         background-image: url(../images/professional-baseball-players.jpg);
@@ -580,4 +581,7 @@ flex-direction: row-reverse;
         font-size: 15px!important;
         font-weight: 500!important;
         text-transform: uppercase!important;
+    }
+    .text-center{
+        text-align: center;
     }

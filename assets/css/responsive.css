@@ -35,11 +35,11 @@
         text-align: center;
         display: block;
     }
-    .social_footer ul li {
+    /* .social_footer ul li {
         margin: 25px 20px;
-    }
+    } */
     .social_icon ul li a {
-        margin: 0 20px;
+        /* margin: 0 20px; */
         width: 25px;
         height: 25px;
         font-size: 18px;
@@ -65,7 +65,7 @@
         height: auto;
         flex-direction: column;
         justify-content: space-evenly;
-        background-color: rgba(0, 0, 0, .8);
+        background-color: rgb(0 0 0);
         overflow: hidden;
         transition: all .5s ease-in-out;
     }
