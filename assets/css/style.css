@@ -97,6 +97,7 @@ nav .icon-burger .line {
     margin: 5px;
     border-radius: 3px;
     transition: all .5s ease-in-out;
+    display: block;
 }
 .banner{
     background-image: url(../images/banner1.jpg);
